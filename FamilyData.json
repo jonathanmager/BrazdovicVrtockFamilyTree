@@ -1,0 +1,218 @@
+{
+    "Members": {
+        "Robert Mager": {
+            "Spouse": "Barbara Mager",
+            "Children": [
+                "Annie Mager",
+                "Jonathan Mager",
+                "Claire Mager"
+            ],
+            "Born": "08/04/1959",
+            "Deceased": "",
+            "First Name": "Robert",
+            "Called Name": "Bob",
+            "Middle Name": "",
+            "Last Name": "Mager"
+        },
+        "Barbara Mager": {
+            "Spouse": "Robert Mager",
+            "Children": [
+                "Annie Mager",
+                "Jonathan Mager",
+                "Claire Mager"
+            ],
+            "Born": "07/20/1959",
+            "Deceased": "",
+            "First Name": "Barbara",
+            "Called Name": "Barb",
+            "Middle Name": "Joan",
+            "Last Name": "Mager"
+        },
+        "Anne Mager": {
+            "Spouse": "Matthew Piatt",
+            "Children": [],
+            "Born": "11/19/1997",
+            "Deceased": "",
+            "First Name": "Anne",
+            "Called Name": "Annie",
+            "Middle Name": "Catherine",
+            "Last Name": "Mager"
+        },
+        "Jonathan Mager": {
+            "Spouse": "",
+            "Children": [],
+            "Born": "04/15/2000",
+            "Deceased": "",
+            "First Name": "Jonathan",
+            "Called Name": "Jonathan",
+            "Middle Name": "Paul",
+            "Last Name": "Mager"
+        },
+        "Claire Mager": {
+            "Spouse": "",
+            "Children": [],
+            "Born": "04/01/2002",
+            "Deceased": "04/02/2002",
+            "First Name": "Claire",
+            "Called Name": "Claire",
+            "Middle Name": "Elizabeth",
+            "Last Name": "Mager"
+        },
+        "James Mager": {
+            "Spouse": "Jeane Mager",
+            "Children": [
+                "Brad Mager",
+                "Timothy Mager",
+                "Amy Mager"
+            ],
+            "Born": "03/18/1947",
+            "Deceased": "",
+            "First Name": "James",
+            "Called Name": "Jim",
+            "Middle Name": "Joseph",
+            "Last Name": "Mager"
+        },
+        "Brad Mager": {
+            "Spouse": "Denise Mager",
+            "Children": [
+                "Cullen Krombach",
+                "Alyssa Mager"
+            ],
+            "Born": "09/29/1971",
+            "Deceased": "",
+            "First Name": "James",
+            "Called Name": "Brad",
+            "Middle Name": "Bradley",
+            "Last Name": "Mager"
+        },
+        "Timothy Mager": {
+            "Spouse": [
+                "Jessica Shankle",
+                "Maria Greco"
+            ],
+            "Children": [
+                "Gavin Mager",
+                "Elle Mager",
+                "Nate",
+                "Anna",
+                "Nick"
+            ],
+            "Born": "11/02/1973",
+            "Deceased": "",
+            "First Name": "Timothy",
+            "Called Name": "Tim",
+            "Middle Name": "Alan",
+            "Last Name": "Mager"
+        },
+        "Amy Mager": {
+            "Spouse": "",
+            "Children": [],
+            "Born": "04/22/1975",
+            "Deceased": "",
+            "First Name": "Amy",
+            "Called Name": "Amy",
+            "Middle Name": "Kristen",
+            "Last Name": "Mager"
+        },
+        "Richard Mager": {
+            "Spouse": "Missy Mager",
+            "Children": [
+                "Abby Wagner",
+                "Bethany Mager",
+                "Thomas"
+            ],
+            "Born": "08/12/1949",
+            "Deceased": "",
+            "First Name": "Richard",
+            "Called Name": "Rick",
+            "Middle Name": "Donald",
+            "Last Name": "Mager"
+        },
+        "Abby Wagner": {
+            "Spouse": "Dan Wagner",
+            "Children": [
+                "Max Wagner",
+                "Avery Mager"
+            ],
+            "Born": "02/15/1985",
+            "Deceased": "",
+            "First Name": "Abby",
+            "Called Name": "Abby",
+            "Middle Name": "Mager",
+            "Last Name": "Wagner"
+        },
+        "Bethany Mager": {
+            "Spouse": "",
+            "Children": [],
+            "Born": "04/30/1981",
+            "Deceased": "",
+            "First Name": "Bethany",
+            "Called Name": "Beth",
+            "Middle Name": "Patricia",
+            "Last Name": "Mager"
+        },
+        "Thomas Mager": {
+            "Spouse": "",
+            "Children": [],
+            "Born": "",
+            "Deceased": "",
+            "First Name": "Thomas",
+            "Called Name": "Thomas",
+            "Middle Name": "",
+            "Last Name": "Mager"
+        },
+        "Daniel Krajcovic": {
+            "Spouse": "Karen Kaluger",
+            "Children": [
+                "Sara Krajcovic",
+                "Matthew Krajcovic"
+            ],
+            "Born": "07/17/1953",
+            "Deceased": "",
+            "First Name": "Daniel",
+            "Called Name": "Dan",
+            "Middle Name": "",
+            "Last Name": "Krajcovic"
+        },
+        "Sara Krajcovic": {
+            "Spouse": "",
+            "Children": [
+                ""
+            ],
+            "Born": "11/16/1988",
+            "Deceased": "",
+            "First Name": "Sara",
+            "Called Name": "Sara",
+            "Middle Name": "",
+            "Last Name": "Krajcovic"
+        },
+        "Matthew Krajcovic": {
+            "Spouse": "Alexandria Paskell",
+            "Children": [
+                "Benjamin"
+            ],
+            "Born": "01/28/1991",
+            "Deceased": "",
+            "First Name": "Matthew",
+            "Called Name": "Matt",
+            "Middle Name": "",
+            "Last Name": "Krajcovic"
+        },
+        "Velma Mager": {
+            "Spouse": "Donald Mager",
+            "Children": [
+                "James Mager",
+                "Richard Mager",
+                "Robert Mager"
+            ],
+            "Born": "01/12/1923",
+            "Deceased": "10/10/1989",
+            "First Name": "Velma",
+            "Called Name": "Velma",
+            "Middle Name": "Cecilia",
+            "Last Name": "Mager",
+            "Maiden Name": "Brazdovic",
+            "Bio": "Velma and Don Mager married on May 18, 1946.  Pictures are below (the little girl holding the train of Velma’s gown and standing with Velma and Don is Paula Zelipsky)"
+        }
+    }
+}
