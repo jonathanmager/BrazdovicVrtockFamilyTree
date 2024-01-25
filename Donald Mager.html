@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Richard Mager </title>
+    
 </head>
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -20,6 +20,7 @@
       <a href="/MagerFamilyTree/James Mager.html"   class="w3-bar-item w3-button">James Mager</a>
       <a href="/MagerFamilyTree/Richard Mager.html" class="w3-bar-item w3-button">Richard Mager</a>
       <a href="/MagerFamilyTree/Robert Mager.html"  class="w3-bar-item w3-button">Robert Mager</a>
+      
     </div>
 
     
@@ -28,15 +29,18 @@
         <div id = "div1", style="margin-left:30%">
             <h1 id="name"></h1>
             <h2 id="born"></h2>
-            <h2 id="died"></h2>
+            <h2 id="died">Died:</h2>
             <h3>Spouse:</h3>
-            <a id="spouse" href="#" onclick="handleClick();"></a>
+            <a id="spouse" href="/MagerFamily/Velma Mager.html" onclick="handleClick();"></a>
             <h3>Children:</h3>
             <p id="children"></p>
+            <h3>Bio:</h3>
+            <p id="bio"></p>
+            <img src="Velma and Don wedding1.png" alt="Velma and Don Wedding">
         </div>
     
         <script>
-            var whos = "Richard Mager"
+            var whos = "Donald Mager"
             // Function to load the JSON file
             function loadJSON(callback) {
                 var xobj = new XMLHttpRequest();
@@ -57,20 +61,25 @@
                 console.log(data); // Access the loaded JSON data here
                 
                 document.getElementById("name").innerHTML = data["Members"][whos]["Called Name"] + " " + data["Members"][whos]["Last Name"];
-                document.getElementById("born").innerHTML = data["Members"][whos]["Born"];
+                document.getElementById("born").innerHTML = "Born: " + data["Members"][whos]["Born"];
+                document.getElementById("died").innerHTML = "Died " + data["Members"][whos]["Deceased"];
                 document.getElementById("spouse").innerHTML = data["Members"][whos]["Spouse"];
+                
+
                 for (let i = 0; i< data["Members"][whos]["Children"].length; i++){
                     let aTag = document.createElement("a")
                     aTag.href = "#"
                     aTag.onclick = "handleClick();"
                     let thing = aTag.appendChild(document.createTextNode(data["Members"][whos]["Children"][i]));
     
-                    document.getElementById("div1").appendChild(thing) 
+                    document.getElementById("children").appendChild(thing) 
                     console.log(data["Members"][whos]["Children"][i]);
                     if (i < data["Members"][whos]["Children"].length-1){
-                        document.getElementById("div1").appendChild( document.createElement("p").appendChild(document.createTextNode(", ")))
+                        document.getElementById("children").appendChild( document.createElement("p").appendChild(document.createTextNode(", ")))
                     }
                 }
+
+                document.getElementById("bio").innerHTML = data["Members"][whos]["Bio"];
                 console.log()
             });
             </script>
