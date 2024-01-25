@@ -212,7 +212,33 @@
             "Middle Name": "Cecilia",
             "Last Name": "Mager",
             "Maiden Name": "Brazdovic",
-            "Bio": "Velma and Don Mager married on May 18, 1946.  Pictures are below (the little girl holding the train of Velma’s gown and standing with Velma and Don is Paula Zelipsky)"
+            "Bio": "Velma and Don Mager married on May 18, 1946.  Pictures are below (the little girl holding the train of Velma's gown and standing with Velma and Don is Paula Zelipsky)"
+        },
+        "Donald Mager": {
+            "Spouse": "Velma Mager",
+            "Children": [
+                "James Mager",
+                "Richard Mager",
+                "Robert Mager"
+            ],
+            "Born": "05/20/1923",
+            "Deceased": "06/07/1972",
+            "First Name": "Donald",
+            "Called Name": "Don",
+            "Middle Name": "Joseph",
+            "Last Name": "Mager",
+            "Bio": "Married Velma Brazdovic at St. Michael's Catholic Church at Bellaire OH      05-18-1946 <br> Don and Velma had 3 children - Jim   Rick   Bob  <br>    Don was born in Wheeling WV and graduated from Central Catholic HS.  He lost his mother during his senior year in high school (1940), and his father the summer after his high school graduation (1941).  In 1941 Don withdrew from his football scholarship to Duquesne University so that he could come home to help take care of his younger brother and sister, Jack and Marie.  His brother Jack later died in a plane accident in the Mediterranean in 1947.  Don served in the Army from 1943-1945, and was stationed in the South Pacific during World II.    A year after returning from the war, Don married Velma Brazdovic.  In 1948-49 Don built their house in Shadyside OH, a home where they raised their family and both lived the rest of their lives. Marie lived with them for a while prior to her wedding in April 1950.  After the war Don became a payroll clerk at Wheeling Steel in Benwood WV.  He worked and took night classes at the Wheeling College of Commerce to become a computer operator for the new Univac computers that were being introduced at that time to the world.  Don worked himself up through different computer technology positions and became a systems analyst and a systems manager at Wheeling-Pittsburgh Steel in Wheeling WV.  He loved his family and he did everything he could to provide them with love, fun and support.  Don also loved sports and was an active treasurer and coach for the Shadyside Little League. His three boys all played sports and he was an avid supporter. He and his boys talked every day about sports-related interests (football, baseball, basketball and golf).   His favorite teams were the Pittsburgh Pirates and Steelers and the OSU Buckeyes.  When not involved with family or sports, Don also dabbled in a hobby of developing and trying different gambling strategies – all without betting real money.  He would try different strategies on a miniature roulette wheel at home and with published race track results. He enjoyed talking about it with others, and his brother Ken would tease him about it.  He never did find a strategy that he felt comfortable spending lots of dollars on, and he never did go to Vegas.  His family’s fondest memories of Don were the many evenings in the backyard tossing the baseball or football or playing croquet or lawn darts, going out to the golf course, going to many Pirates and Indians baseball games and occasionally to the race track, and experiencing our first college football games (1958 Notre Dame-Pitt game for Jim and Rick, and the 1970 OSU-Michigan game for Bob).  Don died suddenly of a heart attack, in the prime of his life, at the age of 49.  He is buried at Mount Calvary cemetery in Wheeling."
+
+        
         }
+    },
+    "Images": {
+        "img1": "Bob, etc",
+        "img2": "Velma, Bob, etc"
+
+    },
+    "Stories": {
+        "Story1": "Bob, Jim, etc",
+        "Story2": "Velma, Don, etc"
     }
 }
