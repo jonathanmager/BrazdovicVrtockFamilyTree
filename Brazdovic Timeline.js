@@ -22,7 +22,7 @@ const timelineArray = [
     { 
         year: "1959", 
         eventt:  
-"<a href=\"/MagerFamily/Robert Mager.html\">Bob Mager</a> Born ", 
+"<a href=\"/MagerFamilyTree/Robert Mager.html\">Bob Mager</a> Born ", 
     }, 
     { 
         year: "2000", 
