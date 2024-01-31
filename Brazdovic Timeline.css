@@ -12,14 +12,14 @@ body {
     align-items: center; 
     text-align: center; 
     justify-content: center; 
-    background: hsl(113, 19%, 18%); 
+    background: rgb(218, 230, 235); 
     font-family: "Poppins", sans-serif; 
 } 
   
 /* Styling card container */
 .card { 
     max-width: 20rem; 
-    background: #e5e9f3; 
+    background: rgb(157, 157, 214); 
     margin: 0 1rem; 
     padding: 1rem; 
     box-shadow: 0 0 5px rgba(191, 189, 189, 0.2); 
