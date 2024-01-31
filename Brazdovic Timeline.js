@@ -2,12 +2,15 @@ const timelineArray = [
     { 
         year: "1889", 
         eventt:  
-"Ernestine Vrtock Brazdovic Born", 
+"Ernestine Vrtock Brazdovic Born <img src = \"/MagerFamilyTree/Brazdovic7 young Ernestine.png\">",
+iimg: "<img src = \"/MagerFamilyTree/Brazdovic7 young Ernestine.png\">" ,
+
     }, 
     { 
         year: "1935", 
         eventt:  
 "Anne Married Steve Zelipsky", 
+
     }, 
     { 
         year: "1947", 

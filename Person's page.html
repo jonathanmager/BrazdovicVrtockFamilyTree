@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+=        
+        
+        
+    </script>
+</head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    
+    <!-- Sidebar -->
+    <div id = "sidebar" class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+      <h3 class="w3-bar-item">Menu</h3>
+      <a href="#"   class="w3-bar-item w3-button">James Mager</a>
+      <a href="#" class="w3-bar-item w3-button">Richard Mager</a>
+      <a href="#"  class="w3-bar-item w3-button">Robert Mager</a>
+    </div>
+    
+
+<body>
+    <div id = "div1", style="margin-left:30%">
+        <h1 id="name"></h1>
+        <h2 id="born"></h2>
+        <h2 id="died"></h2>
+        <h3>Spouse:</h3>
+        <a id="spouse" href="#" onclick="handleClick();"></a>
+        <h3>Children:</h3>
+        <p id="children"></p>
+    </div>
+
+    <script>
+        // Function to load the JSON file
+        function loadJSON(callback) {
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', 'FamilyData.json', true); // Replace 'FamilyData.json' with your file path
+            xobj.onreadystatechange = function () {
+                if (xobj.readyState == 4 && xobj.status == 200) {
+                    callback(xobj.responseText);
+                }
+            };
+            xobj.send(null);
+        }
+
+        // Usage
+        loadJSON(function (response) {
+            
+            var data = JSON.parse(response);
+            console.log(data); // Access the loaded JSON data here
+            
+            document.getElementById("name").innerHTML = data["Members"][whos]["Called Name"] + " " + data["Members"][whos]["Last Name"];
+            document.getElementById("born").innerHTML = data["Members"][whos]["Born"] + " - " + data["Members"][whos]["Deceased"];
+            document.getElementById("spouse").innerHTML = data["Members"][whos]["Spouse"];
+            for (let i = 0; i< data["Members"][whos]["Children"].length; i++){
+                let aTag = document.createElement("a")
+                aTag.href = "#"
+                aTag.onclick = "handleClick();"
+                let thing = aTag.appendChild(document.createTextNode(data["Members"][whos]["Children"][i]));
+
+                document.getElementById("div1").appendChild(thing) 
+                console.log(data["Members"][whos]["Children"][i]);
+                if (i < data["Members"][whos]["Children"].length-1){
+                    document.getElementById("div1").appendChild( document.createElement("p").appendChild(document.createTextNode(", ")))
+                }
+            }
+            console.log()
+        });
+
+
+        var spouseElement = document.getElementById("spouse");
+        spouseElement.addEventListener("click", handleClick);
+
+        function handleClick() {
+            whos = "Barbara Mager";
+            console.log("clicked")
+            
+        }
+
+    </script>
+    
+    
+   
+    
+</body>
+
+</html>

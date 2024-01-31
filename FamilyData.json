@@ -238,7 +238,7 @@
 
     },
     "Stories": {
-        "Story1": "Bob, Jim, etc",
-        "Story2": "Velma, Don, etc"
+        "Story1": ["Bob", "Jim", "etc"],
+        "Story2": "Velma, Don, Jim, etc"
     }
 }

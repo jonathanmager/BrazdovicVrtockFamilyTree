@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "react-d3-tree-bfs",
+			"path": "react-d3-tree-bfs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MagerFamilyProject"
+	}
+}
