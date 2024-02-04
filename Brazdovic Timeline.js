@@ -2,8 +2,8 @@ const timelineArray = [
     { 
         year: "1889", 
         eventt:  
-"Ernestine Vrtock Brazdovic Born <img src = \"/MagerFamilyTree/Brazdovic7 young Ernestine.png\">",
-iimg: "<img src = \"/MagerFamilyTree/Brazdovic7 young Ernestine.png\">" ,
+"Ernestine Vrtock Brazdovic Born <img src = \"/BrazdovicVrtockFamilyTree/Brazdovic7 young Ernestine.png\">",
+iimg: "<img src = \"/BrazdovicVrtockFamilyTree/Brazdovic7 young Ernestine.png\">" ,
 
     }, 
     { 
@@ -25,7 +25,7 @@ iimg: "<img src = \"/MagerFamilyTree/Brazdovic7 young Ernestine.png\">" ,
     { 
         year: "1959", 
         eventt:  
-"<a href=\"/MagerFamilyTree/Robert Mager.html\">Bob Mager</a> Born ", 
+"<a href=\"/BrazdovicVrtockFamilyTree/Robert Mager.html\">Bob Mager</a> Born ", 
     }, 
     { 
         year: "2000", 

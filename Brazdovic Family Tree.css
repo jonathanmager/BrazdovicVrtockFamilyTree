@@ -1,0 +1,37 @@
+/*CSS*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+#tree {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*partial*/
+
+.node.Brazdovic rect {
+    fill: #4813c5;
+}
+.node.Mager rect {
+    fill: #e47a11;
+}
+.node.Mager2 rect {
+    fill: #e42a11;
+}
+.node.Mager3 rect {
+    fill: #bde411;
+}
+
+
+
+.node.Krajkovic rect {
+    fill: #075826;
+}
+
