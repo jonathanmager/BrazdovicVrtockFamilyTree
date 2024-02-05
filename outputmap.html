@@ -29,20 +29,31 @@
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
-                    left: 0.0%;
+                    left: 200px;
                     top: 0.0%;
                 }
                 .leaflet-container { font-size: 1rem; }
             </style>
+            <div id = "sidebar" class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%; left: 0%; top:0%" >
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script> 
+    <script> 
+    $(function(){
+        $("#sidebar").load("/BrazdovicVrtockFamilyTree/sidebarlist.html"); 
+    });
+    </script> 
+    </div>
         
     <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
 </head>
+
 <body>
     
     
             <div class="folium-map" id="map_b2086a04dd1451c31532e828b1e2e172" ></div>
         
 </body>
+
 <script>
     
     
@@ -178,6 +189,19 @@
               [[40.4406, -79.9959], [40.0162, -80.7423]],
               {"bubblingMouseEvents": true, "color": "green", "dashArray": [30, 15], "dashOffset": null, "delay": 400, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "#FFFFFF", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 3}
         ).addTo(map_b2086a04dd1451c31532e828b1e2e172);
+
+        
         
 </script>
+<div id = "sidebar" class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%; left: 0%; top:0%" >
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script> 
+    <script> 
+    $(function(){
+        $("#sidebar").load("/BrazdovicVrtockFamilyTree/sidebarlist.html"); 
+    });
+    </script> 
+    </div>
+
+
 </html>
