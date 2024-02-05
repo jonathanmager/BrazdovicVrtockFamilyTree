@@ -23,7 +23,7 @@
     </div>
     <link rel="stylesheet" href="/BrazdovicVrtockFamilyTree/Brazdovic Family Tree.css">
     <script src="https://balkan.app/js/orgchart.js" ></script>
-    <div id="tree" style = "margin-left: 200px; margin-right: 10%; padding-right: 50px" >
+    <div id="tree">
         
         <script> 
         var nodes = [
@@ -47,6 +47,9 @@
         { id: "17", pid: "2", name: "Daniel Krajkovic", claas: "Krajkovic", years: "", img: ""},
         { id: "18", pid: "17", name: "Sara Krajkovic", claas: "Krajkovic",years: "", img: ""},
         { id: "19", pid: "17", name: "Matt Krajkovic", claas: "Krajkovic",years: "", img: ""},
+    
+
+
         
         { id: "29", pid: "7", name: "Cullen Krombach ",claas: "Mager", years: "", img: ""},
         { id: "30", pid: "7", name: "Alyssa Mager",claas: "Mager" ,years: "", img: ""},
@@ -86,18 +89,24 @@
     }
 
 
-    OrgChart.templates.partnerTemplate = Object.assign({}, OrgChart.templates.ana);
+    OrgChart.templates.partnerTemplate = Object.assign({}, OrgChart.templates.diva);
     OrgChart.templates.partnerTemplate.size = [190,100];
+    
     var chart = new OrgChart(document.getElementById("tree"), {    
-        mouseScrool: OrgChart.action.scroll,    
-        template: "ana",
+        mouseScrool: OrgChart.action.scroll, 
+        padding: 20,   
+        levelSeparation: 100,
+        subtreeSeparation: 100,
+        siblingSeparation: 10,
+        template: "diva",
         enableSearch: true,
+        scaleInitial: 0.4,
         mode: 'dark',
-        layout: OrgChart.tree,
+        layout: OrgChart.normal,
         align:OrgChart.ORIENTATION,
         toolbar: {
-            layout: true,
-            zoom: true,
+            layout: false,
+            zoom: true  ,
             fit: true,
             expandAll: true
         },

@@ -1,16 +1,19 @@
 /*CSS*/
 html, body {
-    margin: 0px;
-    padding: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow: visible;
     font-family: Helvetica;
+    
 }
 
 #tree {
     width: 100%;
     height: 100%;
+    font-size:;
 }
 
 
@@ -26,12 +29,24 @@ html, body {
     fill: #e42a11;
 }
 .node.Mager3 rect {
-    fill: #bde411;
+    fill: #e917a3;
 }
 
 
 
 .node.Krajkovic rect {
     fill: #075826;
+}
+
+[data-l-id] path {
+    stroke: #ffffff;
+
+}
+
+.match path, .match circle{
+    stroke: #ee0a0a;
+}
+[data-n-id] rect:hover {
+    filter: drop-shadow( 4px 5px 5px #aeaeae);
 }
 

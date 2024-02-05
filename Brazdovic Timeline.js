@@ -9,7 +9,7 @@ iimg: "<img src = \"/BrazdovicVrtockFamilyTree/Brazdovic7 young Ernestine.png\">
     { 
         year: "1935", 
         eventt:  
-"Anne Married Steve Zelipsky", 
+"<a style=\"font-weight:bold\"  href = \"/BrazdovicVrtockFamilyTree/Brazdovic Family.html#linktest\"> Anne Married Steve Zelipsky </a>", 
 
     }, 
     { 
